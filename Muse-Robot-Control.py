@@ -63,13 +63,13 @@ def blink_handler(unused_addr, args, blink):
         blinkcount+= 1
         if(blinkcount>7):
             print("blink 5 times")
-            tcpClicSock.send(('off').encode())
+            tcpClicSock.send(('left').encode())
             blinkcount=0
 
 def jaw_clench_handler(unused_addr, args, jaw):
     if jaw:
         print("Jaw_Clench")
-        tcpClicSock.send(('on').encode())
+        tcpClicSock.send(('right').encode())
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
