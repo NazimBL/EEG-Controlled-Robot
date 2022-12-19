@@ -1,8 +1,5 @@
-#################################################################
-# Mind Controlling Robot
-# https://github.com/NazimBL?tab=repositories
-
-
+###############
+#1st prototype for an eeg controlled robotic arm
 
 import argparse
 from socket import *
