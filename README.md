@@ -14,6 +14,7 @@ Collect EEG-data.py : Collect and labels data from the Muse 2 sensor using the M
 Gui-tcpPC.py : GUI control of the Rasp-arm via TCP, to run on laptop to test TCP connection
 Rasp-Arm-tcpPI.py : TCP server listener running on Rasp-Arm
 Muse-Robot-Control.py : Control Rasp-arm with Muse 2 sensor (jaw clenches and eyes blinking)
+Test Classifier Model.py : runs realtime prediction on data captured from Muse 2 and sends moving signals to the robotic arm according to the result
 
 
 
