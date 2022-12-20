@@ -1,5 +1,5 @@
 # this part of code is used to test the machine learning model
-# it is created and modifiid by Yibo Li
+# it is created and modifiid by Yibo Li & Nazim Belabbaci
 
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
