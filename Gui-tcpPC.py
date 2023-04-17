@@ -49,6 +49,6 @@ btn_right.place(x=15, y=15)
 
 
 btn_left = tk.Button(root, width=8, text='Left', fg='#E1F5FE', bg='#0277BD', command=move_left)
-btn_off.place(x=95, y=15)
+btn_right.place(x=95, y=15)
 
 root.mainloop()
