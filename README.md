@@ -22,20 +22,10 @@ This project demonstrates an end-to-end pipeline: capturing raw EEG data from a 
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 
 The system operates on a distributed network architecture involving three main nodes: the Sensor, the Processing Unit (PC), and the Actuator (Robot).
 
-```mermaid
-graph LR
-    A[Muse 2 Headband] -- UDP Stream --> B[Laptop / PC]
-    B -- TCP Socket --> C[Raspberry Pi]
-    C -- PWM Signals --> D[Robotic Arm Servos]
-    
-    subgraph "Signal Processing (PC)"
-    B1[Data Collection] --> B2[Feature Extraction]
-    B2 --> B3[TensorFlow Model]
-    B3 --> B4[Command Generation]
-    end
+
 
 
